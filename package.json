@@ -12,7 +12,7 @@
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
-    "@opennextjs/cloudflare": "~1.0.0-beta.0 || ^1.0.0",
+    "@opennextjs/cloudflare": "https://pkg.pr.new/@opennextjs/cloudflare@593",
     "@prisma/adapter-pg": "^6.7.0",
     "@prisma/client": "^6.7.0",
     "next": "15.3.1",

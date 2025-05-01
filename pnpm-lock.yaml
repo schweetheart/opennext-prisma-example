@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@opennextjs/cloudflare':
-        specifier: ~1.0.0-beta.0 || ^1.0.0
-        version: 1.0.0-beta.4(wrangler@4.14.0(@cloudflare/workers-types@4.20250430.0))
+        specifier: https://pkg.pr.new/@opennextjs/cloudflare@593
+        version: https://pkg.pr.new/@opennextjs/cloudflare@593(wrangler@4.14.0(@cloudflare/workers-types@4.20250430.0))
       '@prisma/adapter-pg':
         specifier: ^6.7.0
         version: 6.7.0(pg@8.15.6)
@@ -1162,12 +1162,13 @@ packages:
     resolution: {integrity: sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==}
     engines: {node: '>=12.4.0'}
 
-  '@opennextjs/aws@3.5.7':
-    resolution: {integrity: sha512-YjyHJrkIHI7YwQRCp8GjDOudu86oOc1RiwxvBBpPHrplsS18H4ZmkzGggAKhK6B4myGsJQ/q9kNP2TraoZiNzg==}
+  '@opennextjs/aws@3.5.8':
+    resolution: {integrity: sha512-Fn2FjljG76xWg6GOzMiKBoiDLfx635UJyFv6xt4lgmhJcTsTvj/lv5lGA7oTtwj/dbcEGoGdMHBaenBPcsS0/A==}
     hasBin: true
 
-  '@opennextjs/cloudflare@1.0.0-beta.4':
-    resolution: {integrity: sha512-/nEFnjrn8oxfZgW03ZgMzwJvcQ/U/MuXCTIABYvIGnja1+KxFZEc46GFGSxjTwdz4Hmt2eutaEGpQOqC6uRR3w==}
+  '@opennextjs/cloudflare@https://pkg.pr.new/@opennextjs/cloudflare@593':
+    resolution: {tarball: https://pkg.pr.new/@opennextjs/cloudflare@593}
+    version: 1.0.0-beta.4
     hasBin: true
     peerDependencies:
       wrangler: ^4.7.0
@@ -5169,7 +5170,7 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
-  '@opennextjs/aws@3.5.7':
+  '@opennextjs/aws@3.5.8':
     dependencies:
       '@ast-grep/napi': 0.35.0
       '@aws-sdk/client-cloudfront': 3.398.0
@@ -5191,10 +5192,10 @@ snapshots:
       - aws-crt
       - supports-color
 
-  '@opennextjs/cloudflare@1.0.0-beta.4(wrangler@4.14.0(@cloudflare/workers-types@4.20250430.0))':
+  '@opennextjs/cloudflare@https://pkg.pr.new/@opennextjs/cloudflare@593(wrangler@4.14.0(@cloudflare/workers-types@4.20250430.0))':
     dependencies:
       '@dotenvx/dotenvx': 1.31.0
-      '@opennextjs/aws': 3.5.7
+      '@opennextjs/aws': 3.5.8
       enquirer: 2.4.1
       glob: 11.0.2
       ts-tqdm: 0.8.6
